@@ -1,0 +1,36 @@
+\:root
+  --table-background-color: lightyellow
+  --font-family: serif
+  --key-font-size: 10px
+  --value-font-size: 12px
+  --key-font-color: lightblue
+  --value-font-color: lightgreen
+  --key-font-weight: 400
+  --value-font-weight: 400
+
+.tag
+  width: 200px
+  height: 50px
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 12px
+  background-color: #333
+  color: #f0f
+
+table
+  width: 320px
+  height: auto
+  background-color: var(--table-background-color)
+  tr
+    td
+      padding: 3px 10px
+      font-family: var(--font-family)
+      &:nth-of-type(1)
+        color: var(--key-font-color)
+        font-size: var(--key-font-size)
+        font-weight: var(--key-font-weight)
+      &:nth-of-type(2)
+        color: var(--value-font-color)
+        font-size: var(--value-font-size)
+        font-weight: var(--value-font-weight)
