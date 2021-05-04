@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
   <title>Coffee Card Generator</title>
 </head>
 
@@ -14,9 +14,21 @@
     <div class="tag">
       &lt;show-hello&gt;&lt;/show-hello&gt;
     </div>
+
+    <div id="uploaders">
+      <form action="">
+        <input id="dataLoader" type="file">
+        <label for="dataLoader">Apply your json files</label>
+      </form>
+      <form action="">
+        <input id="styleLoader" type="file">
+        <label for="styleLoader">Apply your stylesheets</label>
+      </form>
+    </div>
+    
     <show-hello></show-hello>
   </div>
-  <script src="coffeecard.js"></script>
+  <script src="js/coffeecard.js"></script>
 </body>
 
 </html>
